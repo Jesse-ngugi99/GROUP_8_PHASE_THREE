@@ -179,11 +179,4 @@ Most churners are customers who:
 
 ****
 
-## Repository Structure
-```
-├── images
-├── gitignore
-├── README.md
-├── fims_analysis.ipynb
-└── presentation.pdf
 ```
