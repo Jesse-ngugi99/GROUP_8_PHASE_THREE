@@ -44,7 +44,7 @@ This project uses descriptive statistics and predictive modelling to provide ins
 ## RESULTS
 * Plotting the a correlation matrix with the target column, we figured customer service calls, total day minutes and total day charge are the top correlated features to churn.
   
-![alternative](./image/Targetcorrelationmatrix.png)
+![alternative](./images/Targetcorrelationmatrix.png)
 
 * And since total day charge and total day minutes are collinear  we removed one to prevent multicollinearity in the model
 
