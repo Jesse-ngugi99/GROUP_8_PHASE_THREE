@@ -1,6 +1,6 @@
 # CHURN ANALYSIS 
 ***
-![alternative](./images/churn.png)
+
 <img src="churn.png">
 ## BUSINESS OVERVIEW
 Telecom companies provide phone, internet, and mobile services. The industry keeps changing with new tech like 5G, higher customer expectations and stiff competition from related fields . The Telecom companies support many sectors such as e-commerce, fintech, and biotech, all of which depend on digital systems and data. Syriatel like many telecom companies has often faced  challenges such as customer churn where the clients cancel subscriptions and leave for competitors or even fraud. To stay competative, the companies must solve problems quickly and use data to guide decision.
@@ -188,6 +188,7 @@ Most churners are customers who:
 ├── fims_analysis.ipynb
 └── presentation.pdf
 ```
+
 
 
 
