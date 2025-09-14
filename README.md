@@ -182,8 +182,8 @@ Most churners are customers who:
 ## Repository Structure
 ```
 ├── images
-├── gitignore
+├── DataReprt.pdf
 ├── README.md
-├── fims_analysis.ipynb
+├── index.ipynb
 └── presentation.pdf
 ```
