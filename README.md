@@ -2,7 +2,7 @@
 ***
 ![alternative](./images/churn.png)
 ## BUSINESS OVERVIEW
-Telecom companies provide phone, internet, and mobile services. The industry keeps changing with new tech like 5G, higher customer expectations and stiff competition from related fields . The Telecom companies support many sectors such as e-commerce, fintech, and biotech, all of which depend on digital systems and data. Syriatel like many telecom companies has often faced  challenges such as customer churn where the clients cancel subscriptions and leave for competitors or even fraud. To stay competitive, the companies must solve problems quickly and use data to guide decision.
+Telecom companies provide phone, internet, and mobile services. The industry keeps changing with new tech like 5G, higher customer expectations and stiff competition from related fields . The Telecom companies support many sectors such as e-commerce, fintech, and biotech, all of which depend on digital systems and data. Syriatel like many telecom companies has often faced  challenges such as customer churn where the clients cancel subscriptions and leave for competitors or even fraud. To stay competative, the companies must solve problems quickly and use data to guide decision.
 
 ## BUSINESS PROBLEM
 Telecom companies like Syriatel, customer churn is a big risk to revenue and market share. Without knowing why customers leave, the company cannot act in time to keep them. The main goal of this project is to use the customer data to build a predictive model that identifies customers likely to leave, helping Syriatel improve retention, reduce revenue loss, and support long-term growth
@@ -35,7 +35,7 @@ The column names are:
 19. Customer service calls-Number of times the customer called customer service.
 20. Churn -Whether the customer left the company
 
-* Doing futher investigations to our dataset we realised; that there are no duplicate records and no missing values.
+* Doing futher ivestigations to our dataset we realsed; there are there are no duplicate records and no missing values.
 * The target column is churn.
      
 ## METHODS
@@ -75,7 +75,7 @@ This project uses descriptive statistics and predictive modelling to provide ins
 * The model has 107 False negatives meaning model wrongly classified 107 churners as non-churners
 * The model has 27 False positive meaning it wrongly classified 27 non-churners as churners
 
-![alternative](./images/logregcfmbeforebalancing.png)
+![alternative](./images/logregmatrixb4balancing.png)
 
 * The model has an accuracy of about 87%
 * Precision for class 0(non-churners): suggests the model is correct 89% of the times it predicts non-churners.
@@ -111,7 +111,7 @@ This adjustment is acceptable in this churn analysis because missing a churner i
 * Overall, the model is fairly reliable in detecting customer at risk of churn.
 * The higher the AUC means the better separation between churners and non-churners.
 
-* We proceed to build the next model to see if the performance will improve.
+* We proceed to build the next model to see if the perfomance will improve.
 
 #### **Decision Trees (before class balancing)** 
 
@@ -173,10 +173,17 @@ Most churners are customers who:
 
 5. The company should use targeted communication, like personalized messages and tailored offers, to encourage customers at risk of churn such as frequent callers or heavy international users to stay
 
-6. High daytime and international charges may frustrate customers. The company could review the charges and offer flexible packages to reduce customers frustration.
+6. High daytime and international charges may frustrate customers. The company could review the charges and offer flexible packages to reduce customers frustation.
 
 7. Some customers may not fully understand their plan benefits. Educating them—for example, showing how voicemail or bundled offers save money can improve customer retention.
 
 ****
 
+## Repository Structure
+```
+├── images
+├── gitignore
+├── README.md
+├── fims_analysis.ipynb
+└── presentation.pdf
 ```
