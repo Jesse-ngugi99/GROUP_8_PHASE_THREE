@@ -75,7 +75,7 @@ This project uses descriptive statistics and predictive modelling to provide ins
 * The model has 107 False negatives meaning model wrongly classified 107 churners as non-churners
 * The model has 27 False positive meaning it wrongly classified 27 non-churners as churners
 
-![image alt]("C:\Users\hp\Downloads\logregmatrixb4balancing.png")
+![image alt](./images/logregmatrixb4balancing.png)
 
 * The model has an accuracy of about 87%
 * Precision for class 0(non-churners): suggests the model is correct 89% of the times it predicts non-churners.
@@ -187,3 +187,4 @@ Most churners are customers who:
 ├── fims_analysis.ipynb
 └── presentation.pdf
 ```
+
