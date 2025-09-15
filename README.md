@@ -35,7 +35,7 @@ The column names are:
 19. Customer service calls-Number of times the customer called customer service.
 20. Churn -Whether the customer left the company
 
-* Doing futher ivestigations to our dataset we realsed; there are there are no duplicate records and no missing values.
+* Doing futher investigations to our dataset we realsed; there are no duplicate records and no missing values.
 * The target column is churn.
      
 ## METHODS
